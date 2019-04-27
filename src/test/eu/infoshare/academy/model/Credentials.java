@@ -31,4 +31,25 @@ public class Credentials {
         response.getEntity();
 
     }
+
+    @Test
+    public void updateUserTest(){
+
+
+        Client client = ClientBuilder.newClient();
+        WebTarget target = client.target("http://localhost:81/rest/user");
+
+
+        User user = new User();
+        user.setId(3);
+        user.setName("ISA 123  aaaa");
+        user.setSurname("ISA 456  aaa");
+
+        Response response = target.request()
+                .put(Entity.entity(user, MediaType.APPLICATION_JSON));
+
+
+        response.getEntity();
+
+    }
 }
