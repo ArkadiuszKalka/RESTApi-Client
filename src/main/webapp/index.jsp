@@ -6,7 +6,8 @@
 <h2>Hello REST Client</h2>
 <%App.data();%>
 
-<%
+NIe działa bo nie pobiera danych prawidłowo
+<%--<%
     List<StateInfo> states = App.data();
 
     for (int i = 0; i < states.size(); i++) {
@@ -19,6 +20,6 @@
 
 </tr>
 
-<% } %>
+<% } %>--%>
 </body>
 </html>
