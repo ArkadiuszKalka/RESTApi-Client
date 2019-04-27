@@ -1,7 +1,9 @@
 package eu.infoshare.academy;
 
+
 import eu.infoshare.academy.model.RestResponse;
 import eu.infoshare.academy.model.StateInfo;
+
 
 import javax.ws.rs.client.Client;
 import javax.ws.rs.client.ClientBuilder;

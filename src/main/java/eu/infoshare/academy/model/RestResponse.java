@@ -5,7 +5,7 @@ import org.codehaus.jackson.annotate.JsonProperty;
 import java.io.Serializable;
 import java.util.List;
 
-public class RestResponse  implements Serializable {
+public class RestResponse implements Serializable {
 
     @JsonProperty("RestResponse")
     private RestResponse restResponse;
