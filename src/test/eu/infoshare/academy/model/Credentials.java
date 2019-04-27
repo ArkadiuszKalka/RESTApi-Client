@@ -13,7 +13,7 @@ import javax.ws.rs.core.Response;
 public class Credentials {
 
     @Test
-    public void addUserTest(){
+    public void addUserTest() {
 
 
         Client client = ClientBuilder.newClient();
@@ -24,8 +24,8 @@ public class Credentials {
         user.setName("ISA 123");
         user.setSurname("ISA 456");
 
-                Response response = target.request()
-                        .post(Entity.entity(user, MediaType.APPLICATION_JSON));
+        Response response = target.request()
+                .post(Entity.entity(user, MediaType.APPLICATION_JSON));
 
 
         response.getEntity();
@@ -33,7 +33,7 @@ public class Credentials {
     }
 
     @Test
-    public void updateUserTest(){
+    public void updateUserTest() {
 
 
         Client client = ClientBuilder.newClient();
@@ -52,4 +52,16 @@ public class Credentials {
         response.getEntity();
 
     }
+
+    @Test
+    public void deleteUserTest() {
+
+
+        Client client = ClientBuilder.newClient();
+        WebTarget target = client.target("http://localhost:81/rest/user?id=4");
+
+
+        Response response = target.request().delete();
+    }
+
 }

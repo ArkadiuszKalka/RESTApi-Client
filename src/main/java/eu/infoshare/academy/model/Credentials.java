@@ -32,6 +32,10 @@ public class Credentials {
         this.password = password;
     }
 
+    public void setUser(String user) {
+        this.user = user;
+    }
+
     @Override
     public String toString() {
         return "Credentials{" +
