@@ -3,7 +3,9 @@ package eu.infoshare.academy.model;
 
 import org.codehaus.jackson.annotate.JsonProperty;
 
-public class StateInfo {
+import java.io.Serializable;
+
+public class StateInfo implements Serializable {
 
     private Long id;
     private String country;

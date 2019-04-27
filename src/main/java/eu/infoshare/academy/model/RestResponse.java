@@ -2,9 +2,10 @@ package eu.infoshare.academy.model;
 
 import org.codehaus.jackson.annotate.JsonProperty;
 
+import java.io.Serializable;
 import java.util.List;
 
-public class RestResponse {
+public class RestResponse  implements Serializable {
 
     @JsonProperty("RestResponse")
     private RestResponse restResponse;
