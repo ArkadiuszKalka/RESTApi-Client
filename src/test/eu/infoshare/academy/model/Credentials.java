@@ -12,6 +12,8 @@ import javax.ws.rs.core.Response;
 
 public class Credentials {
 
+    private static String SERVICE = "http://localhost:81/rest/";
+
     @Test
     public void addUserTest() {
 
@@ -48,14 +50,12 @@ public class Credentials {
         Response response = target.request()
                 .put(Entity.entity(user, MediaType.APPLICATION_JSON));
 
-
         response.getEntity();
 
     }
 
     @Test
     public void deleteUserTest() {
-
 
         Client client = ClientBuilder.newClient();
         WebTarget target = client.target("http://localhost:81/rest/user?id=4");
@@ -64,4 +64,24 @@ public class Credentials {
         Response response = target.request().delete();
     }
 
+    private static <T> Entity<T> entity(T entity) {
+        return Entity.entity(entity, MediaType.APPLICATION_JSON);
+    }
+
+
+    private WebTarget getWebTarget(String endpoint){
+
+        Client client = ClientBuilder.newClient();
+
+        return client.target(SERVICE + endpoint);
+    }
+
+    @Test
+    public void testDelete(){
+
+
+        WebTarget target = getWebTarget("user?id=2");
+
+        target.request().delete();
+    };
 }

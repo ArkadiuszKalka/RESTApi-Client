@@ -8,7 +8,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5dd080d6-c2bd-43a3-84cf-5ef8d0a9ac17" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/eu/infoshare/academy/model/Credentials.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/eu/infoshare/academy/model/Credentials.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/eu/infoshare/academy/model/Credentials.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/eu/infoshare/academy/model/Credentials.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -168,8 +167,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/eu/infoshare/academy/model/Credentials.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="461">
-              <caret line="74" selection-start-line="63" selection-end-line="75" />
+            <state relative-caret-position="-565">
+              <caret line="14" column="63" selection-start-line="14" selection-start-column="63" selection-end-line="14" selection-end-column="63" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -339,7 +338,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Credentials.deleteUserTest">
+  <component name="RunManager" selected="JUnit.Credentials.testDelete">
     <configuration name="Unnamed" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss 15.0.1.Final3" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/RESTClient/" />
       <option name="UPDATING_POLICY" value="restart-server" />
@@ -460,6 +459,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Credentials.testDelete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RESTClient" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="eu.infoshare.academy.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="eu.infoshare.academy.model" />
+      <option name="MAIN_CLASS_NAME" value="eu.infoshare.academy.model.Credentials" />
+      <option name="METHOD_NAME" value="testDelete" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Credentials.updateUserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RESTClient" />
       <extension name="coverage">
@@ -509,9 +524,11 @@
       <item itemvalue="JUnit.Credentials.addUserTest (1)" />
       <item itemvalue="JUnit.Credentials.updateUserTest" />
       <item itemvalue="JUnit.Credentials.deleteUserTest" />
+      <item itemvalue="JUnit.Credentials.testDelete" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Credentials.testDelete" />
         <item itemvalue="JUnit.Credentials.deleteUserTest" />
         <item itemvalue="JUnit.Credentials.addUserTest (1)" />
         <item itemvalue="JUnit.Credentials.updateUserTest" />
@@ -529,44 +546,47 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1556372522508</updated>
-      <workItem from="1556372525911" duration="10742000" />
+      <workItem from="1556372525911" duration="11391000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Credentials_addUserTest - 2019.04.27 at 18h 14m 21s.xml">
-      <configuration name="Credentials.addUserTest" configurationId="JUnit" />
+    <history-entry file="Credentials_deleteUserTest - 2019.04.27 at 18h 41m 23s.xml">
+      <configuration name="Credentials.deleteUserTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Credentials_addUserTest - 2019.04.27 at 18h 14m 57s.xml">
-      <configuration name="Credentials.addUserTest" configurationId="JUnit" />
+    <history-entry file="Credentials_deleteUserTest - 2019.04.27 at 18h 41m 40s.xml">
+      <configuration name="Credentials.deleteUserTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Credentials_addUserTest - 2019.04.27 at 18h 15m 14s.xml">
-      <configuration name="Credentials.addUserTest" configurationId="JUnit" />
+    <history-entry file="Credentials_deleteUserTest - 2019.04.27 at 18h 42m 18s.xml">
+      <configuration name="Credentials.deleteUserTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Credentials_addUserTest - 2019.04.27 at 18h 16m 00s.xml">
-      <configuration name="Credentials.addUserTest" configurationId="JUnit" />
+    <history-entry file="Credentials_deleteUserTest - 2019.04.27 at 18h 42m 23s.xml">
+      <configuration name="Credentials.deleteUserTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Credentials_addUserTest - 2019.04.27 at 18h 16m 58s.xml">
-      <configuration name="Credentials.addUserTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Credentials_addUserTest - 2019.04.27 at 18h 17m 36s.xml">
-      <configuration name="Credentials.addUserTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Credentials_addUserTest - 2019.04.27 at 18h 20m 21s.xml">
-      <configuration name="Credentials.addUserTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Credentials_addUserTest_(1) - 2019.04.27 at 18h 20m 58s.xml">
+    <history-entry file="Credentials_addUserTest_(1) - 2019.04.27 at 18h 44m 00s.xml">
       <configuration name="Credentials.addUserTest (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Credentials_updateUserTest - 2019.04.27 at 18h 27m 19s.xml">
-      <configuration name="Credentials.updateUserTest" configurationId="JUnit" />
+    <history-entry file="Credentials_deleteUserTest - 2019.04.27 at 18h 44m 14s.xml">
+      <configuration name="Credentials.deleteUserTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Credentials_deleteUserTest - 2019.04.27 at 18h 44m 34s.xml">
+      <configuration name="Credentials.deleteUserTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Credentials_addUserTest_(1) - 2019.04.27 at 18h 44m 49s.xml">
+      <configuration name="Credentials.addUserTest (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Credentials_addUserTest_(1) - 2019.04.27 at 18h 44m 53s.xml">
+      <configuration name="Credentials.addUserTest (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Credentials_deleteUserTest - 2019.04.27 at 18h 45m 06s.xml">
+      <configuration name="Credentials.deleteUserTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10742000" />
+    <option name="totallyTimeSpent" value="11391000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1032" extended-state="6" />
+    <frame x="0" y="0" width="1920" height="1032" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Designer" />
@@ -575,10 +595,10 @@
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Web" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973147" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24973147" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Application Servers" weight="0.3295063" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.3295063" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.3295063" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Messages" weight="0.3295063" />
@@ -790,8 +810,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/eu/infoshare/academy/model/Credentials.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="74" selection-start-line="63" selection-end-line="75" />
+        <state relative-caret-position="-565">
+          <caret line="14" column="63" selection-start-line="14" selection-start-column="63" selection-end-line="14" selection-end-column="63" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
